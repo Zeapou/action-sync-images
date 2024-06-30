@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://hub.docker.com/r/nastools/nas-tools:latest \
+        skopeo copy docker://https://hub.docker.com/r/nastools/nas-tools:latest \
             docker://registry.cn-shanghai.aliyuncs.com/zeapounamespace/nas-tools:latest
