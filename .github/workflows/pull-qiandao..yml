@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/asdaragon/qiandao:latest \
+        skopeo copy docker://docker.io/a76yyyy/qiandao:latest \
             docker://registry.cn-shanghai.aliyuncs.com/zeapounamespace/qiandao:latest
